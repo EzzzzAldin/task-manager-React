@@ -1,0 +1,40 @@
+.navbar-custom {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand img {
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-custom .navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+.navbar-custom .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  margin-left: 15px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-custom .nav-link:hover {
+  color: var(--secondary-light) !important;
+}

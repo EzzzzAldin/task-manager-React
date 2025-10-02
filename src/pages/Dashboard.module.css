@@ -1,0 +1,148 @@
+.sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  min-height: 85vh;
+}
+
+.mainContent {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.filterItem {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 6px !important;
+}
+
+.filterItem:hover {
+  background-color: #f0f2f5;
+}
+
+.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.active:hover {
+  background-color: var(--secondary);
+}
+
+.mainContent {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 85vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.mainContent .border {
+  background-color: #ffffff;
+}
+
+.taskBadge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.statusCompleted {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.statusDueToday {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.statusOverdue {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.statusUpcoming {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.detailsCard {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(99, 108, 203, 0.2);
+}
+
+.detailsTitle {
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #636ccb, #8b93f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  background: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.infoBox {
+  background: #f0f2ff;
+  border: 1px solid rgba(99, 108, 203, 0.15);
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.high {
+  background-color: #dc3545;
+  color: #fff;
+}
+.medium {
+  background-color: #ffc107;
+  color: #000;
+}
+.low {
+  background-color: #198754;
+  color: #fff;
+}
+
+.completed {
+  background-color: #28a745;
+  color: #fff;
+}
+.due_today {
+  background-color: #ffc107;
+  color: #000;
+}
+.overdue {
+  background-color: #dc3545;
+  color: #fff;
+}
+.upcoming {
+  background-color: #0d6efd;
+  color: #fff;
+}

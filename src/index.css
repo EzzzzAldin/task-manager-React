@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+:root {
+  --primary: #636ccb;
+  --secondary: #4d56a1;
+  --secondary-light: #8e95e0;
+  --gold: #ffd700;
+  --card-bg: #ffffff;
+  --muted: #6b6f85;
+
+  --font-main: "Cairo", sans-serif;
+
+  --text-color: #333;
+  --bg-color: #f9f9fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+.btn-gradient {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #fff !important;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+
+/* Utilities */
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+  color: #fff;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+  color: #fff;
+}
+
+.navbar-custom {
+  background: #fff;
+  border-bottom: 2px solid var(--primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-custom .navbar-brand img {
+  height: 70px;
+}
+
+.navbar-custom .nav-link {
+  color: var(--primary) !important;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 15px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover::after {
+  width: 100%;
+}
