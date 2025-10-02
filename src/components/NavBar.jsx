@@ -15,7 +15,7 @@ function NavBar() {
       <div className="container">
         <Link className="navbar-brand" to={token ? "/dashboard" : "/"}>
           <img
-            src="/erasebg-transformed.png"
+            src="/task-manager-React/erasebg-transformed.png"
             alt="Logo"
             height="70"
             className="me-2"
