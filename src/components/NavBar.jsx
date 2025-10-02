@@ -15,7 +15,7 @@ function NavBar() {
       <div className="container">
         <Link className="navbar-brand" to={token ? "/dashboard" : "/"}>
           <img
-            src="/src/assets/erasebg-transformed.png"
+            src="/erasebg-transformed.png"
             alt="Logo"
             height="70"
             className="me-2"
