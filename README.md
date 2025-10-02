@@ -1,16 +1,38 @@
-# React + Vite
+# 📌 Task Manager Frontend (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="public/screencapture-localhost-5173-dashboard-2025-10-02-12_33_28.png" width="700" alt="Dashboard Screenshot">
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About the Project
 
-## React Compiler
+This is the **React Frontend** for the [Task Manager API](https://github.com/YourBackendRepoLink).  
+It provides a clean and responsive user interface for managing tasks.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✨ Features
 
-## Expanding the ESLint configuration
+- 🔐 Authentication (Login / Signup)
+- 📋 View and filter tasks by **status** and **priority**
+- ➕ Add new tasks with due date, priority, and assignee
+- 🔎 View detailed task information (creator, assignee, due date, etc.)
+- 📱 Fully responsive design with off-canvas menu for mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📷 Screenshots
+
+| Welcome Page                                                                  | Dashboard                                                                  | Task Details                                                             |
+| ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![](public/screencapture-firnas-test-store-service-1-2025-10-01-17_20_15.png) | ![](public/screencapture-localhost-5173-dashboard-2025-10-02-12_33_28.png) | ![](public/screencapture-localhost-5173-tasks-4-2025-10-02-12_35_50.png) |
+
+---
+
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/EzzzzAldin/task-manager-React.git
+   cd task-manager-frontend
+   ```
